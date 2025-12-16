@@ -8,7 +8,7 @@ export const configEnv = {
 
 export const containerMaxW = 'xl:max-w-6xl xl:mx-auto';
 
-export const appTitle = '번들즈';
+export const appTitle = '주차장 관리 시스템';
 
 export const getPageTitle = (currentPageTitle: string) =>
   `${currentPageTitle} — ${appTitle}`;
