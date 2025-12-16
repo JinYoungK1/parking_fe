@@ -79,7 +79,7 @@ export function useUpdateParkingLot() {
       // 주차장 상태 조회 쿼리 무효화하여 자동 새로고침
       queryClient.invalidateQueries({ queryKey: ['/reference/parking/status'] });
     },
-  });
+  }); 
 }
 
 // ======== [ 주차 중인 차량 목록 조회 ] ========
